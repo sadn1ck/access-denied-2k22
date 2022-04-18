@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    // width: 100vw;
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+.link-btn{
+    text-decoration: none;
+    background-color: #222;
+    color: #fff;
+    padding: 0.4rem 1.4rem;
+    border-radius: 3px;
+}
+
+
+::selection{
+    background-color: #222;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2.5px;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+// @import './Men';
+
+@import './Sponsers';
+
+
+
+.footer-container{
+    min-height: 15vh;
+    width:100%;
+    background-color: #222;
+    color: #fff;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer{
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        .address{
+            flex:0.4
+        }
+        .social-media{
+            float: right;
+            flex:0.5;
+            .sm{
+                float: right;
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+
+.sch-page{
+    background: linear-gradient(
+        to top right,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.2)
+    ),
+    url("../assets/img/main/m2.jpg");
+    // background-image: url("../assets/img/main/m1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    .s-002-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        min-height: 60vh;
+        color: #EDFAFC;
+        background: linear-gradient(to top right,rgba(2,2,2,0.1),rgba(2,2,2,0.6),rgba(2,2,2,0.6), rgba(2,2,2,0.1));
+        .s-002{
+            display: flex;
+            width: 60%;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            .evt-sch{
+                padding: 5rem 0rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: stretch;
+                .eve-head{
+                    width: 100%;
+                    margin-bottom: 1.5rem;
+                }
+                .event-name{
+                    // letter-spacing: 1px;
+                    margin-bottom: 1rem;
+                }
+                .eve-start{
+                    letter-spacing: 1px;
+                }
+                .eve-end{
+                    letter-spacing: 1px;
+                    margin-bottom: 2rem;
+                }
+                .register-btn-cont{
+                    .register-btn{
+                        text-decoration: none;
+                        color: #fff;
+                        background-color: #222;
+                        padding: 0.4rem 1rem;
+                    }
+                }
+            }
+        }
+        @media (max-width: 950px){
+            .s-002{
+                width: 80%;
+            }
+        }
+        @media (max-width: 800px){
+            .s-002{
+                width: 95%;
+                .event-sch{
+                    padding: 0rem;
+                }
+                .eve-head{
+                    h1{
+                        font-size:24px !important;
+                    }
+                }
+            }
+        }
+        
+    }
+    .s-001{
+        width: 100%;
+        min-height:100vh;
+        background-color: #222;
+    }
+    
+    .s-003{
+        width: 100%;
+        min-height:100vh;
+        background-color: #fff;
+    }
+}
+
+
+@media (max-width:800px){
+    h1{
+        font-size: 32px !important;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+    h3{
+        font-size: 18px !important;
+    }
+    p{ 
+        font-size: 14px !important;
+    }
+}
+

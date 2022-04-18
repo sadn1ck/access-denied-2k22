@@ -1,0 +1,241 @@
+.abt-section {
+  min-height: 60vh;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.abt-section .abt-container {
+  width: 70%;
+  margin: auto;
+}
+
+.abt-section .abt-container .heading {
+  margin-bottom: 3rem;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.abt-section .abt-container .heading-go-up {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+.abt-section .abt-container .abt-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.abt-section .abt-container .abt-main .abt-1 {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+  padding: 2rem;
+}
+
+.abt-section .abt-container .abt-main .abt-1 .abt-head {
+  margin-bottom: 1.5rem;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.abt-section .abt-container .abt-main .abt-1 .abt-head h2 {
+  font-size: 26px;
+}
+
+.abt-section .abt-container .abt-main .abt-1 .abt-head-anim {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+.abt-section .abt-container .abt-main .abt-1 .abt-desc {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+  margin-bottom: 1.5rem;
+}
+
+.abt-section .abt-container .abt-main .abt-1 .abt-desc p {
+  color: #333;
+}
+
+.abt-section .abt-container .abt-main .abt-1 .abt-desc-anim {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+.abt-section .abt-container .abt-main .abt-1 .abt-btn {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.abt-section .abt-container .abt-main .abt-1 .abt-btn .abt-btn-style {
+  text-decoration: none;
+  padding: 0.4rem 1.6rem;
+  background-color: #222;
+  color: #fff;
+}
+
+.abt-section .abt-container .abt-main .abt-1 .abt-btn-anim {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+.abt-section .abt-container .abt-main .abt-2 {
+  -webkit-box-flex: 0.4;
+      -ms-flex: 0.4;
+          flex: 0.4;
+}
+
+.abt-section .abt-container .abt-main .abt-2 .abt-img-div {
+  width: 450px;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.abt-section .abt-container .abt-main .abt-2 .abt-img-div img {
+  width: 100%;
+}
+
+.abt-section .abt-container .abt-main .abt-2 .abt-img-anim {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .abt-section .abt-container {
+    width: 90%;
+  }
+  .abt-section .abt-container .abt-main .abt-2 .abt-img-div {
+    width: 400px;
+  }
+  .abt-section .abt-container .abt-main .abt-2 .abt-img-div img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .abt-section .abt-container {
+    width: 90%;
+  }
+  .abt-section .abt-container .abt-1 .abt-head {
+    margin-bottom: 0.5rem;
+  }
+  .abt-section .abt-container .abt-1 .abt-head h2 {
+    font-size: 16px;
+  }
+  .abt-section .abt-container .abt-1 .abt-desc {
+    margin-bottom: 1rem;
+  }
+  .abt-section .abt-container .abt-1 .abt-desc p {
+    font-size: 14px;
+    color: #333;
+  }
+  .abt-section .abt-container .abt-1 .abt-btn .abt-btn-style {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0.4rem 1.6rem;
+    background-color: #222;
+    color: #fff;
+  }
+  .abt-section .abt-container .abt-main .abt-1 .abt-head {
+    margin-bottom: 0.7rem;
+  }
+  .abt-section .abt-container .abt-main .abt-2 .abt-img-div {
+    width: 300px;
+  }
+  .abt-section .abt-container .abt-main .abt-2 .abt-img-div img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .abt-section .abt-container .abt-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .abt-section .abt-container .abt-main .abt-1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 3rem;
+  }
+  .abt-section .abt-container .abt-main .abt-1 .abt-head h2 {
+    font-size: 26px;
+  }
+  .abt-section .abt-container .abt-main .abt-1 .abt-desc {
+    margin-bottom: 1.5rem;
+  }
+  .abt-section .abt-container .abt-main .abt-1 .abt-desc p {
+    color: #333;
+  }
+  .abt-section .abt-container .abt-main .abt-1 .abt-btn .abt-btn-style {
+    text-decoration: none;
+    padding: 0.4rem 1.6rem;
+    background-color: #222;
+    color: #fff;
+  }
+  .abt-section .abt-container .abt-main .abt-2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .abt-section .abt-container .abt-main .abt-2 .abt-img-div {
+    width: 400px;
+  }
+  .abt-section .abt-container .abt-main .abt-2 .abt-img-div img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Abt.css.map */

@@ -1,0 +1,104 @@
+.ct-section{
+    // background-color: #222;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ct-form-div{
+        flex:0.5;
+        align-self: stretch;
+        background-color: #fff;
+        padding-top: 2rem;
+        .ct-heading{
+            width:70%;
+            margin: auto;
+            margin-bottom: 1rem;
+        }
+        form{
+            width:70%;
+            margin: auto;
+            margin-bottom: 2rem;
+            .form-grp{
+                width: 100%;
+                input{
+                    width: 100%;
+                    background-color: transparent;
+                    padding: 0.5rem 0.3rem;
+                    outline: none;
+                    border:none;
+                    border-bottom: 1px solid #000;
+                }
+                textarea{
+                    width: 100%;
+                    padding: 0.5rem 0.3rem;
+                    outline: none;
+                    border:none;
+                    border-bottom: 1px solid #000;
+                }
+                button{
+                    outline: none;
+                    border: none;
+                    background-color: #222;
+                    color:#fff;
+                    padding: 0.4rem 1.5rem;
+                    cursor: pointer;
+                }
+                padding-bottom: 1rem;
+            }
+        }
+    }
+    .ct-det-div{
+        flex:0.5;
+        align-self: stretch;
+
+        background-color: #222;
+        color: #fff;
+        // padding: 4rem 0;
+        display: flex;
+        // justify-content: center;
+        // align-items: center;
+        .ct-det{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            .ct-address{
+                margin-bottom: 2rem;
+            }
+            .soc-links{
+                margin-bottom: 2rem;
+                .soc-lin-grp{
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+            .soc-icons{
+                .soc-icons-head{
+                    margin-bottom: 1rem;
+                }
+                .icons{
+                    display: flex;
+                    gap:2rem;
+                    a{
+                        text-decoration: none;
+                        color:white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:750px){
+    .ct-section{
+        flex-direction: column;
+        .ct-form-siv{
+            padding-top: 2rem;
+        }
+        .ct-det-div{
+            padding: 2rem;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.faq-section {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10vh;
+}
+
+.faq-section .faq-container {
+  padding-top: 8vh;
+  min-height: 100vh;
+}
+/*# sourceMappingURL=Faq.css.map */

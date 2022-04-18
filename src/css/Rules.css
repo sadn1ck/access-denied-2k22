@@ -1,0 +1,22 @@
+.rules-section {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10vh;
+}
+
+.rules-section .rules-container {
+  padding-top: 8vh;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.rules-section .rules-container .head {
+  margin-bottom: 1.5rem;
+}
+
+.rules-section .rules-container .body ul li {
+  list-style-type: square;
+  margin-bottom: 0.5rem;
+}
+/*# sourceMappingURL=Rules.css.map */

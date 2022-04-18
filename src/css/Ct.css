@@ -1,0 +1,136 @@
+.ct-section {
+  min-height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ct-section .ct-form-div {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  background-color: #fff;
+  padding-top: 2rem;
+}
+
+.ct-section .ct-form-div .ct-heading {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.ct-section .ct-form-div form {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.ct-section .ct-form-div form .form-grp {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.ct-section .ct-form-div form .form-grp input {
+  width: 100%;
+  background-color: transparent;
+  padding: 0.5rem 0.3rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.ct-section .ct-form-div form .form-grp textarea {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.ct-section .ct-form-div form .form-grp button {
+  outline: none;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  padding: 0.4rem 1.5rem;
+  cursor: pointer;
+}
+
+.ct-section .ct-det-div {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  background-color: #222;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ct-section .ct-det-div .ct-det {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ct-section .ct-det-div .ct-det .ct-address {
+  margin-bottom: 2rem;
+}
+
+.ct-section .ct-det-div .ct-det .soc-links {
+  margin-bottom: 2rem;
+}
+
+.ct-section .ct-det-div .ct-det .soc-links .soc-lin-grp a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ct-section .ct-det-div .ct-det .soc-icons .soc-icons-head {
+  margin-bottom: 1rem;
+}
+
+.ct-section .ct-det-div .ct-det .soc-icons .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.ct-section .ct-det-div .ct-det .soc-icons .icons a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 750px) {
+  .ct-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ct-section .ct-form-siv {
+    padding-top: 2rem;
+  }
+  .ct-section .ct-det-div {
+    padding: 2rem;
+  }
+}
+/*# sourceMappingURL=Ct.css.map */

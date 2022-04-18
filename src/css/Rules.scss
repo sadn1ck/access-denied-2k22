@@ -1,0 +1,22 @@
+.rules-section{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10vh;
+    .rules-container{
+        padding-top: 8vh;
+        width: 70%;
+        margin: auto;
+        min-height: 100vh;
+        .head{
+            margin-bottom: 1.5rem;
+        }
+        .body{
+            ul{
+                li{
+                    list-style-type:square;
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+    }
+} 

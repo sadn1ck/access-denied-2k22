@@ -1,0 +1,159 @@
+.main-container{
+    background: linear-gradient(
+        to top right,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.2)
+    ),
+    url("../assets/img/main/m1.jpg");
+    // background-image: url("../assets/img/main/m1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    .bg-video-wrapper{
+        position:fixed;
+        z-index: -2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        video{
+            position: relative;
+            width: 100%;
+            height:100%;
+            object-fit: cover;
+        }
+        .bg-video-overlay{
+            position: absolute;
+            background: linear-gradient(
+                to top right,
+                rgba(0,0,0,0.2),
+                rgba(0,0,0,0.7),
+                rgba(0,0,0,0.7),
+                rgba(1,0,0,0.2)
+            );
+            width: 100%;
+            height:100%;
+            left:0;
+            top:0;
+            right: 0;
+        }
+    }
+
+    .main-cont{
+        min-width:60%;
+        // background-color: #fff;
+        padding: 2rem;
+        color:#fff;
+        .code-iiest{
+            h1{
+                font-family: 'Roboto', sans-serif;
+                .code{
+                    color: #fff;
+                }
+                .iiest{
+                    color: red;
+                }
+            }
+            margin-bottom: 1rem;
+        }
+        .acc-den{
+            h1{
+                font-size:72px;
+                animation:shake 1.5s;
+                animation-delay: 1s;
+            animation-iteration-count: 3;
+            animation-fill-mode:forwards;
+            font-size:80px;
+            }
+            @keyframes shake {
+                0% {
+                    color: red; 
+                    transform: skewX(-15deg); }
+                5% {
+                    color: #fff;
+                    transform: skewX(15deg); }
+                10% {
+                    color: red;
+                    transform: skewX(-15deg); 
+                }
+                15% {
+                    color: red;
+                    transform: skewX(15deg); }
+                20% { 
+                    color: red;
+                    transform: skewX(0deg); }
+                100% { 
+                    color:#fff;
+                    transform: skewX(0deg); }  
+            }
+            margin-bottom: 1rem;
+        }
+        .a-2022{
+            h2{
+                font-size: 48px;
+                
+            }
+            margin-bottom: 2rem;
+        }
+        .timer{
+            // background-color: #fff;
+            .event-starts{
+                font-size:20px;
+                margin-bottom: 0.5rem;
+            }
+            .timings{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .time-box{
+                    border-radius: 5px;
+                    background-color: rgba(0,0,0,0.7);
+                    padding: 0.6rem 0.4rem;
+                    border: 1px solid rgba(#111,0.5);
+                    box-shadow: 0px 0px 5px 1px rgba(#fff,0.7);
+                    margin-left: 0.1rem;
+                }
+            }
+            
+        } 
+        @media (max-width:800px){
+            .code-iiest{
+                h1{
+                    font-size: 32px;
+                    font-family: 'Roboto', sans-serif;
+                    .code{
+                        color: #fff;
+                    }
+                    .iiest{
+                        color: red;
+                    }
+                    margin-bottom: 0;
+                }
+                margin-bottom: 1rem;
+            }
+            .acc-den{
+                h1{
+                    font-size:48px !important;
+                }
+                margin-bottom: 0.5rem;
+            }
+            .a-2022{
+                h2{
+                    font-size: 32px !important;
+                    
+                }
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
