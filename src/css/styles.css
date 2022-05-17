@@ -198,6 +198,10 @@ h3 {
   color: #fff;
 }
 
+.footer-container .footer p a:hover {
+  color: red;
+}
+
 .sch-page {
   background: -webkit-gradient(linear, left bottom, right top, from(rgba(0, 0, 0, 0.2)), color-stop(rgba(0, 0, 0, 0.3)), color-stop(rgba(0, 0, 0, 0.7)), color-stop(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.2))), url("../assets/img/main/m2.jpg");
   background: linear-gradient(to top right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../assets/img/main/m2.jpg");

@@ -25,7 +25,7 @@ const Footer = () => {
         {/* <div> */}
 
         {/* </div> */}
-        <p>Infra sponsored by <a href="http://goo.gle/ctfsponsorship">Google</a></p>
+        <p>Infra sponsored by <a href="http://goo.gle/ctfsponsorship"> goo.gle/ctfsponsorship</a></p>
       </div>
     </section>
   )
