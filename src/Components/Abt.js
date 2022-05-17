@@ -85,9 +85,9 @@ const Abt = () => {
               </p>
             </div>
             <div className="abt-btn" ref={accBtnRef}>
-              <Link className="abt-btn-style" to="/">
+              <a className="abt-btn-style" href="https://discord.gg/hEbNUtmp">
                 Join Doscord
-              </Link>
+              </a>
             </div>
           </div>
           <div className="abt-2">
