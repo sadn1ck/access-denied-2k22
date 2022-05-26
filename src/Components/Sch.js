@@ -26,7 +26,7 @@ const Sch = () => {
                     <p>Ends: 4:00 p.m, <span>Sunday, 12 Jun, 2022</span></p>
                 </div>
                 <div className="register-btn-cont">
-                    <a className='register-btn' href="https://discord.gg/hEbNUtmp">Register now</a>
+                    <a className='register-btn' href="https://ctf.codeiiest.org/">Register now</a>
                 </div>
             </div>
         </div>

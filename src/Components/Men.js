@@ -58,7 +58,7 @@ const Men = () => {
         <li><Link className="nav-link" to="/rules">Rules</Link></li>
         {/* <li><Link className="nav-link" to="/faqs">FAQs</Link></li> */}
         {/* <li><a className="nav-link" href="/#contact">Contact</a></li> */}
-        <li><a className="nav-link" href="https://discord.gg/hEbNUtmp">Register</a></li>
+        <li><a className="nav-link"  href="https://ctf.codeiiest.org/">Register</a></li>
     </ul>
 </nav>
     // </section>
