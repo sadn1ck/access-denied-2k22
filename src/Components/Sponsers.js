@@ -35,7 +35,7 @@ const Sponsers = () => {
       <div className="sponsers-cont" >
         <div className="head" ref={sponsersRef}>
           <center>
-            <h1>OUR SPONSERS</h1>
+            <h1>OUR SPONSORS</h1>
           </center>
         </div>
         <div className="spons-body" >
@@ -48,7 +48,7 @@ const Sponsers = () => {
             </div>
             <div className="become-sponser-link" ref={sponsBtnRef}>
               <center>
-                <a className="link-btn" href="mailto:codeiiest.iiest@gmail.com">Be a sponser</a>
+                <a className="link-btn" href="mailto:codeiiest.iiest@gmail.com">Be a sponsor</a>
               </center>  
             </div>
           </div>
