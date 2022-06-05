@@ -64,6 +64,9 @@ const Rules = () => {
             <li>
             Don’t horde flags to rise to the top instantly.
             </li>
+            <li>
+              Flag format for the CTF is accessdenied{"{*}"}.
+            </li>
           </ul>
         </div>
       </div>

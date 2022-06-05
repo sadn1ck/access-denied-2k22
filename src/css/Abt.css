@@ -200,7 +200,7 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    padding: 3rem;
+    padding: 1rem;
   }
   .abt-section .abt-container .abt-main .abt-1 .abt-head h2 {
     font-size: 26px;
