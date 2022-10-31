@@ -6,6 +6,7 @@ import '../css/Main.css';
 
 const Main = () => {
 
+  let timer = 10;
   const timerFunc = () => {
     // Set the date we're counting down to
     var countDownDate = new Date("Nov 13, 2022 16:00:00").getTime();
@@ -22,7 +23,11 @@ const Main = () => {
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
+      
+      if(days < 0 || hours < 0 || minutes < 0 || seconds << 0){
+        timer = -1;
+      }
+      
       // Display the result in the element with id="demo"
       document.getElementById("days").innerHTML = days;
       document.getElementById("hours").innerHTML = hours;
@@ -67,20 +72,30 @@ const Main = () => {
           <div className="timer">
             <p className="event-starts">Event Starts in</p>
             <div className="timings">
+              {
+                (timer < 0) && (
+                  <>
+                  <div className="time-box">
+                    <p><span id="days"></span> days </p>
+                  </div>
+                  <div className="time-box">
+                      <p><span id="hours"></span> hrs</p>
+                  </div>
+                  <div className="time-box">
+                        <p><span id="mins"></span> mins </p>
+                  </div>
+                  <div className="time-box">
+                        <p><span id="secs"></span> secs</p>
+                  </div>
+                  </>
+                  
+                )
+              }
               <div className="time-box">
-                <p><span id="days"></span> days </p>
+                <p>EVENT COMPLETED</p>
               </div>
-              <div className="time-box">
-                  <p><span id="hours"></span> hrs</p>
-              </div>
-              <div className="time-box">
-                    <p><span id="mins"></span> mins </p>
-              </div>
-              <div className="time-box">
-                    <p><span id="secs"></span> secs</p>
-              </div>
-              </div>
-            
+
+            </div>
           </div>
           </center>
         </div>
