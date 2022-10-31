@@ -20,10 +20,10 @@ const Sch = () => {
                     <h2>Access Denied 2022</h2>
                 </div>
                 <div className="eve-start">
-                        <p>Starts: 4:00 p.m, <span>Friday, 10 Jun, 2022</span></p>
+                        <p>Starts: 4:00 p.m, <span>Sunday, 13 Nov, 2022</span></p>
                 </div>
                 <div className="eve-end">
-                    <p>Ends: 4:00 p.m, <span>Sunday, 12 Jun, 2022</span></p>
+                    <p>Ends: 4:00 p.m, <span>Tuesday, 15 Nov, 2022</span></p>
                 </div>
                 <div className="register-btn-cont">
                     <a className='register-btn' href="https://ctf.codeiiest.org/">Register now</a>
